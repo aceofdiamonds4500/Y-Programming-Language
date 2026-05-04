@@ -14,6 +14,13 @@ mul = x * y
 div = x / y
 *~
 
+exp make_nine(x = x+y){
+    because x >> 3
+    because y >> x + 3 ~~ 3 + 3 = 6
+    ~~top expression gets executed last
+}
+
+~~this is experimental console doodads, it's up in the air whether this would be the proper way to do this
 exp add_2(x = x + 2){
     because x >> in ~~console input
     exp add_1(x = x + 1){
